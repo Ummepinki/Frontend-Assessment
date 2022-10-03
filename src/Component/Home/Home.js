@@ -16,6 +16,13 @@ const Home = () => {
                             <h2 className='font-light text-[16px] lg:text-[24px] leading-[18px] lg:leading-[27px]
                              text-[#4F4F4F]'>Easily host and share events with your friends across any social media.</h2>
                         </div>
+                        <div className='hidden lg:flex'>
+                            <Link to='/addDetails'>
+                                <div className='flex justify-center items-center w-[320px] h-[55px] padding-[16px] rounded-[10px] bg-gradient-to-r from-[#8456EC] to-[#E87BF8] text-center '>
+                                    <span className='btn-text font-bold text-[16px] leading-[18.4px] text-white'>Create my event</span>
+                                </div>
+                            </Link>
+                        </div>
                      
                     </div>
                     <div className='mx-[105px] lg:mx-[0] mb-[34px] lg:mb-[0]'>

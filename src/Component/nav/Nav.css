@@ -1,0 +1,45 @@
+.time{
+
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    left: 32px;
+    top: 13px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.32px;
+    color: #020202;
+
+}
+
+.bar_1{
+    position: absolute;
+    width: 3px;
+    height: 6px;
+    left: calc(50% - 3px/2 - 2.83px);
+   
+    
+    background: #DADADA;
+}
+.bar_2{
+    position: absolute;
+    width: 15.27px;
+    height: 4.74px;
+    padding-right: 3px;
+    left: calc(52% - 15.27px/2 - 0.01px);
+
+     background: #DADADA;
+ 
+    
+}
+
+.bar_3{
+    position: absolute;
+    width: 18px;
+    height: 7.33px;
+    left: calc(54% - 18px/2 - 0.5px);
+
+}
